@@ -1,0 +1,599 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4274600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should launch the chrome browser",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should type the url",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_type_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should maximize the window",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_maximize_the_window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-01T17:08:02.409Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2054600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 190800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeS()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10351028700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook;validate-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 212014800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScnario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afters()"
+            }
+          },
+          {
+            "result": {
+              "duration": 137200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 200100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 396247000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should type invalid username and passwords",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_type_invalid_username_and_passwords(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "kam",
+                  "kam@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116798200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should click the login button",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31288623300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should get the title of the incorrect page",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_get_the_title_of_the_incorrect_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28890400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should navigate to incorrect credential page",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should launch the chrome browser",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should type the url",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_type_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should maximize the window",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_maximize_the_window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-01T17:08:44.851Z",
+        "before": [
+          {
+            "result": {
+              "duration": 211200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 152400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeS()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5319038600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate with invalid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook;validate-with-invalid-username-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 600746400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScnario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 177300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afters()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 336989800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should type invalid username \"suresh\" and valid password \"7894562\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suresh\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"7894562\"",
+                  "offset": 66
+                }
+              ],
+              "location": "FacebookLoginSteps.the_user_should_type_invalid_username_and_valid_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141392300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user should click the login button",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1789663900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user should get the title of the incorrect page",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_get_the_title_of_the_incorrect_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17156100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user should navigate to incorrect credential page",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of facebook",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20files/FacebookLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-01T17:08:53.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 185100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 269600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 127400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeS()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5389580300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the forget password functionality",
+        "description": "",
+        "id": "to-validate-forget-password-feature-in-the-facebook-page;verify-the-forget-password-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 4237951300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScnario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 266900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afters()"
+            }
+          },
+          {
+            "result": {
+              "duration": 217000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 145000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should launch the browser",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should load the url",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_load_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should maximize the window",
+            "match": {
+              "location": "FacebookLoginSteps.the_user_should_maximize_the_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2769824300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should click forgot passord link",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_click_forgot_passord_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11369900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should navigate to find your account page",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_navigate_to_find_your_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191829300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should type registered mobile number or email-id",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_type_registered_mobile_number_or_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174765100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should click the search button",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24374000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should navigate to reset your password page",
+            "match": {
+              "location": "ForgetPasswordstepDefinition.the_user_should_navigate_to_reset_your_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate forget password feature in the facebook page",
+    "description": "",
+    "id": "to-validate-forget-password-feature-in-the-facebook-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20files/ForgetPassword.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
