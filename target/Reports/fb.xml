@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="64.926622">
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and invalid password" time="42.445123">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maximize the window.....................................passed
+And The user should type invalid username and passwords.....................passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect page.....................passed
+Then The user should navigate to incorrect credential page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and valid password" time="11.19639">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maximize the window.....................................passed
+And The user should type invalid username "suresh" and valid password "7894562".passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect page.....................passed
+Then The user should navigate to incorrect credential page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate forget password feature in the facebook page" name="Verify the forget password functionality" time="11.285109">
+<system-out><![CDATA[Given The user should launch the browser....................................passed
+When The user should load the url...........................................passed
+And The user should maximize the window.....................................passed
+And The user should click forgot passord link...............................passed
+And The user should navigate to find your account page......................passed
+And The user should type registered mobile number or email-id...............passed
+And The user should click the search button.................................passed
+Then The user should navigate to reset your password page...................passed
+]]></system-out>
+</testcase>
+</testsuite>

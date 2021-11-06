@@ -1,7 +1,10 @@
 package org.stepdefinition;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.utility.Baseclass;
 
+import cucumber.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
@@ -49,21 +52,12 @@ public void beforeS() {
 }
 
 @After(order=30)
-public void afters() {
-	System.out.println("order no:30");
+public void afters(Scenario s) {
+	if(s.isFailed()){
+		TakesScreenshot tk=(TakesScreenshot)driver;
+		byte[] screenshotAs = tk.getScreenshotAs(OutputType.BYTES);
+		s.embed(screenshotAs,"image/png");
+	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

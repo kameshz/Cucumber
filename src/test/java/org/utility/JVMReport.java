@@ -13,7 +13,7 @@ import net.masterthought.cucumber.ReportBuilder;
 public class JVMReport {
 	public static void generateJvmReport(String jsonpath) {
 		//1.Mention the location of cucumber report to be saved
-		File fn =new File(System.getProperty("user.dir")+"\\Reports");
+		File fn =new File(System.getProperty("user.dir")+"\\target\\Reports");
 
 		//2.Give details using configuration class
 		Configuration con =new Configuration(fn, "FacebookLogin");
